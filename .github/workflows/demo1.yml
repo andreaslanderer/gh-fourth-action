@@ -1,6 +1,7 @@
 name: Events Demo 1
 on:
   pull_request:
+    types: [opened, synchronize, repopened]
   workflow_dispatch:
 jobs:
   deploy:
